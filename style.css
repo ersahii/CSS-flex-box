@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    border: 2px solid orange;
+    height: 70vh;
+}
+.container > *{
+    color: white;
+}
+.box{
+    height: 40px;
+    width: 100px;
+}
+.red{
+background-color:red;    
+}
+.orange{
+background-color:orange;
+}
+.yellow{
+background-color:yellow;
+height:70px;
+}
+.green{
+background-color:green;
+}
+.blue{
+background-color:blue;
+}
+.indigo{
+background-color:indigo;
+}
+.purple{
+background-color:purple;
+}
+.flex-properties{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.flex-properties > label{
+    font-size: 20px;
+}

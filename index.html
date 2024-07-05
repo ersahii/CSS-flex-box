@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS-Flex-Box</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="red box">Red</div>
+        <div class="orange box">Orange</div>
+        <div class="yellow box">Yellow</div>
+        <div class="green box">Green</div>
+        <div class="blue box">Blue</div>
+        <div class="indigo box">Indigo</div>
+        <div class="purple box">Purple</div>
+    </div>
+    <div class="flex-properties">
+        <label for="flex-direction">flex-direction:</label>
+        <select id="flex-direction" name="flex-direction" onchange="handleChange(this)">
+            <option value="row">row</option>
+            <option value="column">column</option>
+        </select>
+        <label for="justify-content">Justify Content:</label>
+        <select id="justify-content" name="jusftify-content" onchange="handleChange(this)">
+            <option value="flex-start">flex-start</option>
+            <option value="flex-end">flex-end</option>
+            <option value="center">center</option>
+            <option value="space-between">space-between</option>
+            <option value="space-evenly">space-evenly</option>
+            <option value="space-around">space-around</option>
+        </select>
+        <label for="flex-wrap">Flex-Wrap:</label>
+        <select id="flex-wrap" name="flex-wrap" onchange="handleChange(this)">
+            <option value="nowrap">nowrap</option>
+            <option value="wrap">wrap</option>
+            <option value="wrap-reverse">wrap-reverse</option>
+        </select>
+        <label for="align-items">Align Items:</label>
+        <select id="align-items" name="align-items" onchange="handleChange(this)">
+            <option value="flex-start" name="align-items">flex-start</option>
+            <option value="flex-end" name="align-items">flex-end</option>
+            <option value="center" name="align-items">center</option>
+            <option value="baseline" name="align-items">baseline</option>
+            <option value="stretch" name="align-items">stretch</option>
+        </select>
+        <label for="align-content">Align Content:</label>
+        <select id="align-content" name="align-content" onchange="handleChange(this)">
+            <option value="flex-start" name = "align-content">flex-start</option>
+            <option value="flex-end" name = "align-content">flex-end</option>
+            <option value="center" name = "align-content">center</option>
+            <option value="stretch" name = "align-content">stretch</option>
+            <option value="space-between" name = "align-content">space-between</option>
+            <option value="space-around" name = "align-content">space-around</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
